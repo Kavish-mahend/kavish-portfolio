@@ -1,32 +1,139 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Kavish Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #2c3e50;
+      margin-bottom: 0.4em;
+    }
+    p {
+      margin-top: 0;
+      margin-bottom: 1.2em;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    ul li {
+      background: #fff;
+      margin-bottom: 12px;
+      padding: 12px 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgb(0 0 0 / 0.1);
+    }
+    a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-bottom: 2em;
+    }
+    .skills-list li {
+      background: #3498db;
+      color: white;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-weight: bold;
+      box-shadow: 0 2px 5px rgb(0 0 0 / 0.15);
+      flex: 1 1 120px;
+      text-align: center;
+    }
+    .contact-info p {
+      margin-bottom: 0.5em;
+    }
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+  </style>
 </head>
 <body>
   <h1>Hi, I'm Kavish!</h1>
-  <p><strong>Aspiring Software Engineer</strong></p>
-  <p>
-  <a href="KavishCV.pdf" target="_blank">Download my Resume (PDF)</a>
-</p>
+  <p><strong>Bachelor of Computer Application student</strong></p>
+
   <h2>About Me</h2>
   <p>
-    I'm a passionate Bachelor of Computer Application student with a strong interest in web development and software engineering.
+    I am a passionate Bachelor of Computer Application student with a strong interest in web development and software engineering.
     I enjoy building simple and useful projects that solve real-world problems.
   </p>
 
-<h2>Projects</h2>
-<ul>
-  <li>
-    <strong>Fiction Books Website</strong> – 
-    <a href="https://fictionalworld1.wordpress.com/" target="_blank">View Site</a>  
-    <br/>A WordPress site built to showcase fiction book collections.
-  </li>
-  <li>
-    <strong>FoodMuch Menu Website</strong> – 
-    <a href="https://kavish.ccbp.tech/" target="_blank">View Site</a>  
-    <br/>A menu-style website with sections like Why Choose Us, Explore Menu, and Delivery Info.
-  </li>
- </ul>
+  <h2>Skills</h2>
+  <ul class="skills-list">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>Python</li>
+    <li>Java</li>
+    <li>C</li>
+    <li>C++</li>
+    <li>Postman (Backend Testing)</li>
+    <li>SQL</li>
+    <li>PHP</li>
+  </ul>
+
+  <h2>Projects</h2>
+  <ul>
+    <li>
+      <strong>Fiction Books Website</strong> –  
+      <a href="https://fictionalworld1.wordpress.com/" target="_blank" rel="noopener">View Site</a>  
+      <br/>A WordPress site built to showcase fiction book collections.
+    </li>
+    <li>
+      <strong>FoodMuch Menu Website</strong> –  
+      <a href="https://kavish.ccbp.tech/" target="_blank" rel="noopener">View Site</a>  
+      <br/>A menu-style website with sections like Why Choose Us, Explore Menu, and Delivery Info.
+    </li>
+    <li>
+      <strong>Web Portal for Agriculture Insurance (Internship Project)</strong> –  
+      <a href="InternshipProject.pdf" target="_blank" rel="noopener">Project Document (PDF)</a>
+    </li>
+    <li>
+      <strong>Appointment Center for Local Business (Final Year Project)</strong> –  
+      <a href="FinalYearProject.pdf" target="_blank" rel="noopener">Project Document (PDF)</a>
+    </li>
+    <li>
+      <strong>Smart Home Automation System (Second Year Project)</strong> –  
+      <a href="SmartHomeAutomation.pdf" target="_blank" rel="noopener">Project Document (PDF)</a>
+    </li>
+  </ul>
+
+  <h2>Achievements & Certifications</h2>
+  <p>
+    <a href="Achievements.pdf" target="_blank" rel="noopener">Download Achievements & Certifications (PDF)</a>
+  </p>
+
+  <h2>Resume</h2>
+  <p>
+    <a href="KavishCV.pdf" target="_blank" rel="noopener">Download my Resume (PDF)</a>
+  </p>
+
+  <h2>Contact Me</h2>
+  <div class="contact-info">
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank" rel="noopener">linkedin.com/in/your-linkedin-id</a></p>
+  </div>
+
+  <footer>
+    &copy; 2025 Kavish Mahendran. All rights reserved.
+  </footer>
 </body>
 </html>
